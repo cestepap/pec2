@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["name","console","log"],"mappings":"AAAA,IAAMA,IAAI,GAAG,OAAb;AACAC,OAAO,CAACC,GAAR,iBAAqBF,IAArB","file":"cestepap.e31bb0bc.js","sourceRoot":"..","sourcesContent":["const name = 'world';\r\nconsole.log(`Hello ${name}`);"]}
