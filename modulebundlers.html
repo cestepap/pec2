@@ -6,6 +6,8 @@
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <title>PEC 1</title>
             <link rel="stylesheet" type="text/css" href="css/style.css" />
+            <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css" />
+
         </head>
         
         <body class="home">
@@ -33,9 +35,16 @@
             
             <section>
                 <h1>Module bundlers</h1>
-                <h2>
-                    Module bundlers are tools frontend developers used to bundle JavaScript modules into a single JavaScript files that can be executed in the browser.
-                </h2>
+                <p>Un module bundler nos permite automatizar una serie de tareas así como gestionar los assets de las dependencias
+                    que hemos instalado con npm.</p>
+                <p>Las tareas que automatiza un module bundler pueden variar en función del entorno de destino de nuestra aplicación.
+                    Actualmente, los module bundlers realizan estas tareas de forma transparente al usuario, aunque permiten la
+                    configuración para casos especiales.</p>
+                <p><strong>En entorno de producción</strong>, un module bundler realizará tareas que compilen, concatenar y minifiquin las hojas de
+                    estilos y los scripts, además de otros procesos de optimización sobre imágenes y demás assets.</p>
+                <p><strong>En entorno de desarrollo</strong>, el objetivo del module bundler es ofrecer la mejor experiencia posible al desarrollador. Una
+                    de las principales funcionalidades en este entorno es lanzar un servidor de desarrollo y monitorizar los cambios en los
+                    archivos para refrescar el navegador automáticamente.</p>
                 <div class='container-categorias-grid'>
                     <div class='container-categorias-grid-item grid-image-item'>
                         <a href='parcel.html'><img src='img/parcel.PNG' alt=''></a>
@@ -43,7 +52,7 @@
                     <div class='container-categorias-grid-item'>
                         <a href='parcel.html' >Parcel</a>
                         <p>ParcelJS is the new module bundler that out of the box supports everything (well, almost everything) with no config at all. With Parcel, you not only get a zero-config auto-reloading local dev server but much more out of the box: Hot module reloading, obviously, SASS, postCSS, postHTML, Stylus and code splitting using JS dynamic import</p>
-                        <a href='parcel.html'>+ about Parcel</a>
+                        <a href='parcel.html'>+ sobre Parcel</a>
                     </div>
                     <div class='container-categorias-grid-item'></div>
 
@@ -54,7 +63,7 @@
                     <div class='container-categorias-grid-item'>
                         <a href='' >Webpack</a>
                         <p>At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.</p>
-                        <a href='' >+ about Webpack</a>
+                        <a href='' >+ sobre Webpack</a>
                     </div>
                 </div>
             </section>
@@ -64,18 +73,11 @@
     <footer>
         <div class="container container-footer">
             <div class='footer-nav'>
-                <nav class='footer-nav-left'>
-                    <ul>
-                        <li><a href="">Sobre nosotros</a></li>
-                        <li><a href="">Aviso legal</a></li>
-                        <li><a href="">Política de privacidad</a></li>
-                    </ul>
-                </nav>
                 <nav class='footer-nav-right'>
                     <ul>
-                        <li><a href="" class='logo-fb' title='facebook'></a></li>
-                        <li><a href="" class='logo-tw' title='twiter'></a></li>
-                        <li><a href="" class='logo-yt' title='youtube'></a></li>
+                        <li><a href="" title='facebook'><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="" title='twitter'><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="" title='youtube'><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </nav>
                 <div class='footer-author'>

@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Inria+Serif:300,300i,400,400i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap');
 
@@ -313,7 +312,7 @@ footer .go-top{
 }
 
 .container-images {
-    padding: 0px 200px 200px 200px;
+    padding: 0px 200px 100px 200px;
 }
 
 .container-images-grid {
@@ -397,6 +396,7 @@ figcaption {
     grid-column-gap: 0px;
     grid-row-gap: 40px;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
 }
 
 .container-categorias-grid-item {
@@ -489,11 +489,24 @@ figcaption {
     padding: 10px 20px;
 }
 
+.detalle-add{
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    cursor: pointer;
+    color: var(--color-principal);
+}
+
+.toggle-content {
+	display: none;
+}
+
+
 .detalle-bloque ul, ol {
     margin: 0.5rem 0;
     padding: 0 1rem;
 }
-
 
 @media all and (max-width: 800px) { 
     header nav ul {
@@ -509,12 +522,6 @@ figcaption {
     nav li a {
         font-size: initial;
     }
-/* 
-    header nav li:nth-child(3) {
-        width: 60px;
-        height: 60px;
-        margin: 0px auto;
-    } */
 
     .container-header, .container-principal {
         padding: 20px;

@@ -50,3 +50,26 @@ ls
 cd img
 ls
 ls -l
+ls
+npm run build
+sudo git commit -a -m "11"
+sudo git push origin master
+ls
+git add.
+git add .
+sudo git add .
+sudo git commit -a -m "12"
+sudo git push origin master
+npm run build
+npm install --save @fortawesome/fontawesome-free
+npm install --save-dev @fortawesome/fontawesome-free
+la
+cd css
+ls
+cd ..
+ls
+npm install --save @fortawesome/fontawesome-free
+git add .
+sudo git add .
+sudo git commit -a -m "13"
+sudo git push origin master
