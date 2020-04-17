@@ -83,3 +83,46 @@ npm install -g autoprefixer
 sudo npm install -g autoprefixer
 LS
 ls
+git add .
+sudo git add .
+sudo git commit -a -m "index"
+sudo git push origin master
+sudo git add index.html
+sudo git commit -a -m "index2"
+sudo git push origin master
+npm run build
+clear
+npm run build
+ls
+pwd
+ls -l
+cd dist
+ls
+ls -l
+rm dist
+rm -
+rm 
+rm --help
+rm -d dist
+ls
+npm run build
+ls
+cd dist
+ls
+cd ..
+rm -r dist
+ls
+parcel index.html
+vi package.json
+ls
+npm run build
+cd test
+ls
+npm init
+ls
+npm -v
+npm i
+ls
+npm run build
+cd ..
+ls
