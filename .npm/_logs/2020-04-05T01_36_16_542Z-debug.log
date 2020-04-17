@@ -1,0 +1,161 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'autoprefixer' ]
+2 info using npm@6.13.4
+3 info using node@v10.19.0
+4 verbose npm-session 296ce885fc42e176
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/autoprefixer 494ms
+8 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-9.7.5.tgz 117ms
+9 silly pacote tag manifest for autoprefixer@latest fetched in 641ms
+10 timing stage:loadCurrentTree Completed in 667ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule autoprefixer@9.7.5 checking installable status
+18 http fetch GET 304 https://registry.npmjs.org/chalk 102ms (from cache)
+19 silly pacote range manifest for chalk@^2.4.2 fetched in 105ms
+20 silly resolveWithNewModule chalk@2.4.2 checking installable status
+21 http fetch GET 304 https://registry.npmjs.org/normalize-range 196ms (from cache)
+22 silly pacote range manifest for normalize-range@^0.1.2 fetched in 199ms
+23 silly resolveWithNewModule normalize-range@0.1.2 checking installable status
+24 http fetch GET 304 https://registry.npmjs.org/postcss 202ms (from cache)
+25 silly pacote range manifest for postcss@^7.0.27 fetched in 206ms
+26 silly resolveWithNewModule postcss@7.0.27 checking installable status
+27 http fetch GET 304 https://registry.npmjs.org/num2fraction 210ms (from cache)
+28 silly pacote range manifest for num2fraction@^1.2.2 fetched in 212ms
+29 silly resolveWithNewModule num2fraction@1.2.2 checking installable status
+30 http fetch GET 304 https://registry.npmjs.org/postcss-value-parser 239ms (from cache)
+31 silly pacote range manifest for postcss-value-parser@^4.0.3 fetched in 241ms
+32 silly resolveWithNewModule postcss-value-parser@4.0.3 checking installable status
+33 http fetch GET 200 https://registry.npmjs.org/browserslist 311ms
+34 http fetch GET 200 https://registry.npmjs.org/caniuse-lite 407ms
+35 http fetch GET 200 https://registry.npmjs.org/browserslist/-/browserslist-4.11.1.tgz 105ms
+36 silly pacote range manifest for browserslist@^4.11.0 fetched in 427ms
+37 silly resolveWithNewModule browserslist@4.11.1 checking installable status
+38 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001039.tgz 193ms
+39 silly pacote range manifest for caniuse-lite@^1.0.30001036 fetched in 611ms
+40 silly resolveWithNewModule caniuse-lite@1.0.30001039 checking installable status
+41 http fetch GET 200 https://registry.npmjs.org/pkg-up 84ms
+42 http fetch GET 200 https://registry.npmjs.org/node-releases 147ms
+43 http fetch GET 200 https://registry.npmjs.org/pkg-up/-/pkg-up-2.0.0.tgz 68ms
+44 silly pacote range manifest for pkg-up@^2.0.0 fetched in 161ms
+45 silly resolveWithNewModule pkg-up@2.0.0 checking installable status
+46 http fetch GET 200 https://registry.npmjs.org/node-releases/-/node-releases-1.1.53.tgz 85ms
+47 silly pacote range manifest for node-releases@^1.1.53 fetched in 240ms
+48 silly resolveWithNewModule node-releases@1.1.53 checking installable status
+49 http fetch GET 200 https://registry.npmjs.org/electron-to-chromium 314ms
+50 http fetch GET 200 https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.397.tgz 102ms
+51 silly pacote range manifest for electron-to-chromium@^1.3.390 fetched in 448ms
+52 silly resolveWithNewModule electron-to-chromium@1.3.397 checking installable status
+53 http fetch GET 304 https://registry.npmjs.org/find-up 92ms (from cache)
+54 http fetch GET 200 https://registry.npmjs.org/find-up/-/find-up-2.1.0.tgz 99ms
+55 silly pacote range manifest for find-up@^2.1.0 fetched in 205ms
+56 silly resolveWithNewModule find-up@2.1.0 checking installable status
+57 http fetch GET 304 https://registry.npmjs.org/locate-path 85ms (from cache)
+58 http fetch GET 200 https://registry.npmjs.org/locate-path/-/locate-path-2.0.0.tgz 86ms
+59 silly pacote range manifest for locate-path@^2.0.0 fetched in 186ms
+60 silly resolveWithNewModule locate-path@2.0.0 checking installable status
+61 http fetch GET 304 https://registry.npmjs.org/path-exists 101ms (from cache)
+62 silly pacote range manifest for path-exists@^3.0.0 fetched in 103ms
+63 silly resolveWithNewModule path-exists@3.0.0 checking installable status
+64 http fetch GET 304 https://registry.npmjs.org/p-locate 105ms (from cache)
+65 http fetch GET 200 https://registry.npmjs.org/p-locate/-/p-locate-2.0.0.tgz 80ms
+66 silly pacote range manifest for p-locate@^2.0.0 fetched in 192ms
+67 silly resolveWithNewModule p-locate@2.0.0 checking installable status
+68 http fetch GET 304 https://registry.npmjs.org/p-limit 76ms (from cache)
+69 http fetch GET 200 https://registry.npmjs.org/p-limit/-/p-limit-1.3.0.tgz 95ms
+70 silly pacote range manifest for p-limit@^1.1.0 fetched in 186ms
+71 silly resolveWithNewModule p-limit@1.3.0 checking installable status
+72 http fetch GET 304 https://registry.npmjs.org/p-try 106ms (from cache)
+73 http fetch GET 200 https://registry.npmjs.org/p-try/-/p-try-1.0.0.tgz 91ms
+74 silly pacote range manifest for p-try@^1.0.0 fetched in 207ms
+75 silly resolveWithNewModule p-try@1.0.0 checking installable status
+76 http fetch GET 304 https://registry.npmjs.org/escape-string-regexp 102ms (from cache)
+77 silly pacote range manifest for escape-string-regexp@^1.0.5 fetched in 107ms
+78 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+79 http fetch GET 304 https://registry.npmjs.org/ansi-styles 108ms (from cache)
+80 silly pacote range manifest for ansi-styles@^3.2.1 fetched in 111ms
+81 silly resolveWithNewModule ansi-styles@3.2.1 checking installable status
+82 http fetch GET 304 https://registry.npmjs.org/supports-color 114ms (from cache)
+83 silly pacote range manifest for supports-color@^5.3.0 fetched in 117ms
+84 silly resolveWithNewModule supports-color@5.5.0 checking installable status
+85 http fetch GET 304 https://registry.npmjs.org/color-convert 92ms (from cache)
+86 silly pacote range manifest for color-convert@^1.9.0 fetched in 94ms
+87 silly resolveWithNewModule color-convert@1.9.3 checking installable status
+88 http fetch GET 304 https://registry.npmjs.org/color-name 78ms (from cache)
+89 silly pacote version manifest for color-name@1.1.3 fetched in 79ms
+90 silly resolveWithNewModule color-name@1.1.3 checking installable status
+91 http fetch GET 304 https://registry.npmjs.org/has-flag 80ms (from cache)
+92 silly pacote range manifest for has-flag@^3.0.0 fetched in 83ms
+93 silly resolveWithNewModule has-flag@3.0.0 checking installable status
+94 silly pacote range manifest for supports-color@^6.1.0 fetched in 3ms
+95 silly resolveWithNewModule supports-color@6.1.0 checking installable status
+96 http fetch GET 304 https://registry.npmjs.org/source-map 107ms (from cache)
+97 silly pacote range manifest for source-map@^0.6.1 fetched in 117ms
+98 silly resolveWithNewModule source-map@0.6.1 checking installable status
+99 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 2569ms
+100 timing stage:loadIdealTree Completed in 2587ms
+101 silly currentTree lib
+102 silly idealTree lib
+102 silly idealTree └─┬ autoprefixer@9.7.5
+102 silly idealTree   ├── ansi-styles@3.2.1
+102 silly idealTree   ├── browserslist@4.11.1
+102 silly idealTree   ├── caniuse-lite@1.0.30001039
+102 silly idealTree   ├── chalk@2.4.2
+102 silly idealTree   ├── color-convert@1.9.3
+102 silly idealTree   ├── color-name@1.1.3
+102 silly idealTree   ├── electron-to-chromium@1.3.397
+102 silly idealTree   ├── escape-string-regexp@1.0.5
+102 silly idealTree   ├── find-up@2.1.0
+102 silly idealTree   ├── has-flag@3.0.0
+102 silly idealTree   ├── locate-path@2.0.0
+102 silly idealTree   ├── node-releases@1.1.53
+102 silly idealTree   ├── normalize-range@0.1.2
+102 silly idealTree   ├── num2fraction@1.2.2
+102 silly idealTree   ├── p-limit@1.3.0
+102 silly idealTree   ├── p-locate@2.0.0
+102 silly idealTree   ├── p-try@1.0.0
+102 silly idealTree   ├── path-exists@3.0.0
+102 silly idealTree   ├── pkg-up@2.0.0
+102 silly idealTree   ├── postcss-value-parser@4.0.3
+102 silly idealTree   ├─┬ postcss@7.0.27
+102 silly idealTree   │ └── supports-color@6.1.0
+102 silly idealTree   ├── source-map@0.6.1
+102 silly idealTree   └── supports-color@5.5.0
+103 silly install generateActionsToTake
+104 warn checkPermissions Missing write access to /usr/lib/node_modules
+105 timing stage:rollbackFailedOptional Completed in 0ms
+106 timing stage:runTopLevelLifecycles Completed in 3269ms
+107 verbose stack Error: EACCES: permission denied, access '/usr/lib/node_modules'
+108 verbose cwd /home/cestepap
+109 verbose Linux 4.4.0-18362-Microsoft
+110 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "autoprefixer"
+111 verbose node v10.19.0
+112 verbose npm  v6.13.4
+113 error code EACCES
+114 error syscall access
+115 error path /usr/lib/node_modules
+116 error errno -13
+117 error Error: EACCES: permission denied, access '/usr/lib/node_modules'
+117 error  { [Error: EACCES: permission denied, access '/usr/lib/node_modules']
+117 error   stack:
+117 error    'Error: EACCES: permission denied, access \'/usr/lib/node_modules\'',
+117 error   errno: -13,
+117 error   code: 'EACCES',
+117 error   syscall: 'access',
+117 error   path: '/usr/lib/node_modules' }
+118 error The operation was rejected by your operating system.
+118 error It is likely you do not have the permissions to access this file as the current user
+118 error
+118 error If you believe this might be a permissions issue, please double-check the
+118 error permissions of the file and its containing directories, or try running
+118 error the command again as root/Administrator.
+119 verbose exit [ -13, true ]
