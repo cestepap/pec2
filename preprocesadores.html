@@ -7,17 +7,23 @@
             <title>Preprocesadores</title>
             <link rel="stylesheet" type="text/css" href="css/style.css" />
             <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css" />
+            <link rel="shortcut icon" href="fav.ico" />
+
         </head>
         
         <body class="home">
             <a class="sr" href="#main">Saltar al contenido principal</a>
             <header>
                 <div class="container-header">
+                    <div class='container-logo'>
+                        <a href='index.html'><img class='container-logo-img clip-circle' src='img/logo-ok.png' alt='logo frontend tools'></a>
+                        <a href='index.html'><div class='container-logo-title'>Frontend Tools</div></a>
+                    </div>
                     <nav>
                         <ul>
-                            <li><a href="modulebundlers.html">Module bundlers</a></li>
-                            <li class="pagina-activa"><a href="preprocesadores.html">Preprocesadores</a></li>
-                            <li><a href="lenguajes.html">Lenguajes Front-end</a></li>
+                            <li class='grow'><a href="modulebundlers.html">Module bundlers</a></li>
+                            <li class="pagina-activa "><a href="preprocesadores.html">Preprocesadores</a></li>
+                            <li class='grow'><a href="lenguajes.html">Lenguajes Front-end</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -33,11 +39,11 @@
             </div>
             
             <section>
-                <h1>Preprocesadores</h1>
+                <h1 class='title-animation'>Preprocesadores</h1>
                 <h2>Herramientas que reciben archivos escritos en varios lenguajes y los convierten en código comprensible por el navegador.</h2>
                 <div class='container-categorias-grid'>
                     <div class='container-categorias-grid-item grid-image-item'>
-                        <a href='babel.html'><img src='img/babel.PNG' alt=''></a>
+                        <a href='babel.html'><img src='img/babel.PNG' alt='image babel'></a>
                     </div>
                     <div class='container-categorias-grid-item'>
                         <a href='babel.html' >Babel</a>
@@ -87,22 +93,26 @@
 
     
     <footer>
-        <footer>
-            <div class="container container-footer">
-                <div class='footer-nav'>
-                    <nav class='footer-nav-right'>
-                        <ul>
-                            <li><a href="" title='facebook'><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="" title='twitter'><i class="fab fa-twitter-square"></i></a></li>
-                            <li><a href="" title='youtube'><i class="fab fa-youtube"></i></a></li>
-                        </ul>
-                    </nav>
-                    <div class='footer-author'>
-                        <p>© 2019-2020 Carlos Estepa Perez. Herramientas HTML y CSS - PEC 1 <span><a href='#main' class='go-top' title='volver al inicio'></a></span></p>  
-                    </div>
+        <div class="container container-footer">
+            <div class='footer-nav'>
+                <div class='footer-logo'>
+                    <a href="index.html"><img class="container-logo-img clip-circle" src="img/logo-ok.png" alt="logo frontend tools footer"></a>
+                </div>
+
+                <nav class='footer-nav-right'>
+                    <ul>
+                        <li><a href="" title='facebook'><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="" title='twitter'><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="" title='youtube'><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </nav>
+                <div class='footer-author'>
+                    <a href="index.html"><img class="container-logo-img clip-circle logo-mobile" src="img/logo-ok.png" alt="logo frontend tools footer mobile"></a>
+                    <p>© 2019-2020 Carlos Estepa Perez. Herramientas HTML y CSS - PEC 1 <span><a href='#main' class='go-top' title='volver al inicio'></a></span></p>  
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 </body>
 </html>

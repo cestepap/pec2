@@ -126,3 +126,12 @@ ls
 npm run build
 cd ..
 ls
+rm -m test
+rm -r test
+ls
+rm -r dist
+npm run build
+git add .
+sudo git add .
+sudo git commit -a -m "dist"
+sudo git push origin master

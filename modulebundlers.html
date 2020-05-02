@@ -7,6 +7,7 @@
             <title>Module bundlers</title>
             <link rel="stylesheet" type="text/css" href="css/style.css" />
             <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css" />
+            <link rel="shortcut icon" href="fav.ico" />
 
         </head>
         
@@ -14,11 +15,15 @@
             <a class="sr" href="#main">Saltar al contenido principal</a>
             <header>
                 <div class="container-header">
+                    <div class='container-logo'>
+                        <a href='index.html'><img class='container-logo-img clip-circle' src='img/logo-ok.png' alt='logo frontend tools'></a>
+                        <a href='index.html'><div class='container-logo-title'>Frontend Tools</div></a>
+                    </div>
                     <nav>
                         <ul>
-                            <li class="pagina-activa"><a href="modulebundlers.html">Module bundlers</a></li>
-                            <li><a href="preprocesadores.html">Preprocesadores</a></li>
-                            <li><a href="lenguajes.html">Lenguajes Front-end</a></li>
+                            <li class="pagina-activa "><a href="modulebundlers.html">Module bundlers</a></li>
+                            <li class='grow'><a href="preprocesadores.html">Preprocesadores</a></li>
+                            <li class='grow'><a href="lenguajes.html">Lenguajes Front-end</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -34,7 +39,7 @@
             </div>
             
             <section>
-                <h1>Module bundlers</h1>
+                <h1 class='title-animation'>Module bundlers</h1>
                 <p>Un module bundler nos permite automatizar una serie de tareas así como gestionar los assets de las dependencias
                     que hemos instalado con npm.</p>
                 <p>Las tareas que automatiza un module bundler pueden variar en función del entorno de destino de nuestra aplicación.
@@ -47,7 +52,7 @@
                     archivos para refrescar el navegador automáticamente.</p>
                 <div class='container-categorias-grid'>
                     <div class='container-categorias-grid-item grid-image-item'>
-                        <a href='parcel.html'><img src='img/parcel.PNG' alt=''></a>
+                        <a href='parcel.html'><img src='img/parcel.PNG' alt='image parcel'></a>
                     </div>
                     <div class='container-categorias-grid-item'>
                         <a href='parcel.html' >Parcel</a>
@@ -58,7 +63,7 @@
 
                     <div class='container-categorias-grid-item'></div>
                     <div class='container-categorias-grid-item grid-image-item'>
-                        <img src='img/webpack.PNG' alt=''>
+                        <img src='img/webpack.PNG' alt='image webpack'>
                     </div>
                     <div class='container-categorias-grid-item'>
                         <a href='' >Webpack</a>
@@ -73,6 +78,10 @@
     <footer>
         <div class="container container-footer">
             <div class='footer-nav'>
+                <div class='footer-logo'>
+                    <a href="index.html"><img class="container-logo-img clip-circle" src="img/logo-ok.png" alt="logo frontend tools footer"></a>
+                </div>
+
                 <nav class='footer-nav-right'>
                     <ul>
                         <li><a href="" title='facebook'><i class="fab fa-facebook-square"></i></a></li>
@@ -81,6 +90,7 @@
                     </ul>
                 </nav>
                 <div class='footer-author'>
+                    <a href="index.html"><img class="container-logo-img clip-circle logo-mobile" src="img/logo-ok.png" alt="logo frontend tools footer mobile"></a>
                     <p>© 2019-2020 Carlos Estepa Perez. Herramientas HTML y CSS - PEC 1 <span><a href='#main' class='go-top' title='volver al inicio'></a></span></p>  
                 </div>
             </div>

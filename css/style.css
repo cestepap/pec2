@@ -10,7 +10,7 @@
     --color-texto: #1f1f11;
     --color-contraste: #ff7900;
     --color-texto-secundario: #666666;
-    --color-fondo:  rgba(69, 141, 209, 0.2);
+    --color-fondo: #c8bfe7;
 }
 
 * {
@@ -100,6 +100,56 @@ abbr {
 
 /* header */
 
+
+/*
+
+========================
+*/
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.full-width {
+    left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.container-logo {
+
+    padding: 20px;
+}
+
+.container-logo-title{
+    max-width: 600px;
+    margin: 0px auto;
+    font-size: 4em;
+    padding: 50px;
+    color: var(--color-botones-fondo);
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.container-logo-img{
+    width: 100px;
+}
+
+.clip-circle {
+    clip-path: circle(50px at center);
+    float: left;
+    margin: 20px;
+}
+
 header {
     position: relative;
     background: var(--color-fondo);
@@ -128,7 +178,7 @@ header nav ul {
 }
 
 header nav li {
-    margin-left: 2%;
+    margin-left: 5%;
     flex: 2;
 }
 
@@ -205,10 +255,15 @@ footer:before {
     word-break: break-all;
 }
 
+.footer-logo{
+    grid-column-start: 1; 
+    justify-self: left;
+}
+
 .footer-nav {
     display: grid;
     grid-template-columns: 75% 25%;
-    grid-template-rows: 80px 50px;
+    grid-template-rows: 120px 50px;
 }
 
 .footer-nav-left {
@@ -508,7 +563,32 @@ figcaption {
     padding: 0 1rem;
 }
 
+.title-animation {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
 @media all and (max-width: 800px) { 
+
+    .logo-mobile {
+        display: block;
+        margin: 0px 10px;
+    }
+
     header nav ul {
         display: block;
         max-width: 400px;
@@ -526,6 +606,11 @@ figcaption {
     .container-header, .container-principal {
         padding: 20px;
     }
+
+    .footer-logo {
+        display: none;
+    }
+
  
     .footer-nav {
         display: block;
@@ -559,7 +644,8 @@ figcaption {
     }
 
     .container-images {
-        padding-top: 0;
+        padding: 0;
+        margin: 20px;
     }
 
     .container-categorias-grid, .container-categorias-grid-item {

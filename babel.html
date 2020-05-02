@@ -8,6 +8,7 @@
         <title>Babel</title>
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css" />
+        <link rel="shortcut icon" href="fav.ico" />
 
     </head>
     
@@ -15,11 +16,15 @@
         <a class="sr" href="#main">Saltar al contenido principal</a>
         <header>
             <div class="container-header">
+                <div class='container-logo'>
+                    <a href='index.html'><img class='container-logo-img clip-circle' src='img/logo-ok.png' alt='logo frontend tools'></a>
+                    <a href='index.html'><div class='container-logo-title'>Frontend Tools</div></a>
+                </div>
                 <nav>
                     <ul>
-                        <li ><a href="modulebundlers.html">Module bundlers</a></li>
+                        <li class='grow'><a href="modulebundlers.html">Module bundlers</a></li>
                         <li class="pagina-activa"><a href="preprocesadores.html">Preprocesadores</a></li>
-                        <li ><a href="lenguajes.html">Lenguajes Front-end</a></li>
+                        <li class='grow'><a href="lenguajes.html">Lenguajes Front-end</a></li>
                     </ul>
                 </nav>
             </div>
@@ -38,7 +43,7 @@
                         </div>
                     </div>
 
-                    <img src='img/babel.PNG' alt=''>
+                    <img src='img/babel.PNG' alt='imagen de babel'>
 
                     <ul>
                         <li><a href='babel.html#datos-destacables'>Datos destacables</a></li>
@@ -66,9 +71,16 @@
             </div>
 
             <div class='detalle-bloque'>
+
+                <div>
+                    <img class='full-width' alt='imagenes de detalle de babel'
+                    srcset='img/babel1small.png 477w, img/babel1.PNG 954w' 
+                    sizes='(max-width: 600px) 100%, 100%'>
+                </div>
+
                 <div class='detalle-add' id='babel-add'>
                     <h3>MOSTRAR VIDEO</h3>
-                    <i class="fas fa-plus-circle fa-3x" ></i>
+                    <i id='vid_babel' class="fas fa-plus-circle fa-3x grow" ></i>
                 </div>
                 <div id='babel-video' class='toggle-content'>
                     <div class="video-fluido">                                
@@ -96,6 +108,10 @@
     <footer>
         <div class="container container-footer">
             <div class='footer-nav'>
+                <div class='footer-logo'>
+                    <a href="index.html"><img class="container-logo-img clip-circle" src="img/logo-ok.png" alt="logo frontend tools footer"></a>
+                </div>
+
                 <nav class='footer-nav-right'>
                     <ul>
                         <li><a href="" title='facebook'><i class="fab fa-facebook-square"></i></a></li>
@@ -104,6 +120,7 @@
                     </ul>
                 </nav>
                 <div class='footer-author'>
+                    <a href="index.html"><img class="container-logo-img clip-circle logo-mobile" src="img/logo-ok.png" alt="logo frontend tools footer mobile"></a>
                     <p>© 2019-2020 Carlos Estepa Perez. Herramientas HTML y CSS - PEC 1 <span><a href='#main' class='go-top' title='volver al inicio'></a></span></p>  
                 </div>
             </div>
