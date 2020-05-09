@@ -135,3 +135,14 @@ git add .
 sudo git add .
 sudo git commit -a -m "dist"
 sudo git push origin master
+ls
+sudo git add .
+sudo git commit -a -m "pec2.1"
+git push origin master
+sudo git push origin master
+npm run build
+ls
+npm install parcel-plugin-imagemin --save-dev
+npm run build
+sl
+ls

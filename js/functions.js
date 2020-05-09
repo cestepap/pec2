@@ -5,11 +5,11 @@ let babelVideo = document.querySelector('#babel-video');
 let jsAdd = document.querySelector('#js-add');
 let jsVideo = document.querySelector('#js-video');
 
-
 let vidJS = document.querySelector('#vid_js');
 let vidParcel = document.querySelector('#vid_parcel');
 let vidBabel = document.querySelector('#vid_babel');
 
+let titleVidParcel = document.querySelector('.detalle-add h3'); 
 
 
 function toggle(id, className){
@@ -28,9 +28,11 @@ function switchClass(id, className, classNameB){
         {
             element.classList.remove(className);
             element.classList.add(classNameB);
+            titleVidParcel.innerHTML = 'OCULTAR VIDEO';
         }else{
             element.classList.remove(classNameB);
             element.classList.add(className);
+            titleVidParcel.innerHTML = 'MOSTRAR VIDEO';
         }
     }
 
