@@ -146,3 +146,7 @@ npm install parcel-plugin-imagemin --save-dev
 npm run build
 sl
 ls
+sudo git add .
+sudo git commit -a -m "pec2.2"
+sudi git push origin master
+sudo git push origin master
