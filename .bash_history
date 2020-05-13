@@ -150,3 +150,18 @@ sudo git add .
 sudo git commit -a -m "pec2.2"
 sudi git push origin master
 sudo git push origin master
+l
+la
+ls
+sudo git add .
+sudo git commit -a -m "pec2.3"
+sudo git push origin master
+sudo git add .
+sudo git commit -a -m "pec2.4"
+ls
+sudo git push origin master
+sudo git add .
+sudo git commit -a -m "pec2.5"
+sudo git push origin master
+sudo git commit -a -m "pec2.6"
+sudo git push origin master

@@ -72,9 +72,16 @@
 
             <div class='detalle-bloque'>
                 <div>
-                    <img class='full-width' alt='imagenes de detalle de babel'
+                    <!-- <img class='full-width' alt='imagenes de detalle de babel'
                     srcset='img/babel1small.png 477w, img/babel1.PNG 954w' 
-                    sizes='(max-width: 600px) 100%, 100%'>
+                    sizes='(max-width: 600px) 100%, 100%'> -->
+
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="img/babel1crop.PNG">
+                        <source media="(min-width: 800px)" srcset="img/babel1.PNG">
+                        <img class='full-width' src="img/babel1.PNG" alt="imagenes de detalle de babel">
+                    </picture>
+
                 </div>
 
                 <div class='detalle-add' id='babel-add'>
