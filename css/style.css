@@ -619,6 +619,12 @@ figcaption {
 
 @media all and (max-width: 800px) { 
 
+    .clip-circle{
+        float: initial;
+        margin: 0px auto;
+        display: block;
+    }
+
     .logo-mobile {
         display: block;
         margin: 0px auto;
