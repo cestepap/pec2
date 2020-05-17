@@ -165,3 +165,8 @@ sudo git commit -a -m "pec2.5"
 sudo git push origin master
 sudo git commit -a -m "pec2.6"
 sudo git push origin master
+LS
+ls
+sudo git add .
+sudo git commit -a -m "pec2.7"
+sudo git push origin master
