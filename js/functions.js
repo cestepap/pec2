@@ -61,3 +61,4 @@ if (jsAdd != null) {
         switchClass(vidJS.id, 'fa-plus-circle', 'fa-minus-circle');
     })
 }
+
