@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Inria+Serif:300,300i,400,400i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap');
 
-/* basics */
-
-
-
-/* */
-
 :root {
     --color-principal: #306291;
     --color-botones-fondo: #eee;
@@ -104,12 +98,6 @@ abbr {
 }
 
 /* header */
-
-
-/*
-
-========================
-*/
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
@@ -656,7 +644,6 @@ figcaption {
         display: none;
     }
 
- 
     .footer-nav {
         display: block;
         width: 100%;
@@ -732,7 +719,4 @@ figcaption {
         margin-bottom: 5px;
     }
     
-    input, select, textarea {
-        width: 100%;
-    }
 }
