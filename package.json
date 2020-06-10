@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm-run-all clean parcel:dev",
-    "build": "parcel build index.html"
+    "build": "npm-run-all clean parcel:build",
+    "parcel:build": "parcel build index.html",
+    "clean": "rimraf dist .cache .cache-loader"
   },
   "keywords": [],
   "author": "",

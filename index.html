@@ -42,18 +42,22 @@
                   </figure>
 
                     <script>
-                    // YouTube iFrames
-                    let iv = document.getElementById('vindex');
-                    let ii = document.getElementById('iindex');
-                    ii.addEventListener("click", event => {
-                        event.preventDefault();
-                        ii.setAttribute('style','display:none');
-                        let iframeindex = document.createElement("iframe");
-                        iframeindex.setAttribute('src', 'https://www.youtube.com/embed/SBB1YtwODT0')
-                        iframeindex.classList.add('video-fluido');
-                        iv.append(iframeindex);
-                    })
-                    // youtube iframes
+                        let vi = document.getElementById('vindex');
+                        let ii = document.getElementById('iindex');
+
+                        if (ii != null) {
+                            ii.addEventListener("click", event => {
+                                event.preventDefault();
+                                ii.setAttribute('style','display:none');
+                                let divindex = document.createElement("div");
+                                divindex.classList.add('video-fluido');
+                                let iframeindex = document.createElement("iframe");
+                                iframeindex.setAttribute('src', 'https://www.youtube.com/embed/SBB1YtwODT0')
+                                iframeindex.classList.add('video-fluido-item');
+                                divindex.append(iframeindex);
+                                vi.append(divindex);
+                            })
+                        }
                     </script>
 
             </section>
